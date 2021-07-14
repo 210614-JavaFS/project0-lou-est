@@ -1,0 +1,50 @@
+19:50:31.794 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - addCustomer: INSERT INTO pending_customers (username, pass_word, customer_name, address, phone_number, checking_account_balance, savings_account_balance) VALUES ('test6', 'pass', 'test6', '1 main ln', 1231234, 50, 50)
+20:28:24.325 [] [main] ERROR com.revature.daos.BankAdminDAO - Something went wrong retrieving bank admins: src\main\resources\bankAdmins.txt (The system cannot find the file specified)
+20:28:28.934 [] [main] ERROR com.revature.daos.BankAdminDAO - Something went wrong retrieving bank admins: src\main\resources\bankAdmins.txt (The system cannot find the file specified)
+20:28:38.818 [] [main] ERROR com.revature.daos.BankAdminDAO - Something went wrong retrieving bank admins: src\main\resources\bankAdmins.txt (The system cannot find the file specified)
+20:36:25.322 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - addCustomer: INSERT INTO pending_customers (username, pass_word, customer_name, address, phone_number, checking_account_balance, savings_account_balance) VALUES ('test7', 'pass', 'test7', '2 main st', 1111111, 50, 50)
+20:36:46.349 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findAll: SELECT * FROM pending_customers
+20:37:04.723 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findById: SELECT * FROM pending_customers WHERE pending_customer_id = 7
+20:37:08.489 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - deleteCustomer: DELETE FROM pending_customers where pending_customer_id = 7
+20:37:08.941 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - addCustomer: INSERT INTO registered_customers (username, pass_word, customer_name, address, phone_number, checking_account_balance, savings_account_balance) VALUES ('test7', 'pass', 'test7', '2 main st', 1111111, 50, 50)
+20:37:14.991 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findAll: SELECT * FROM registered_customers
+20:37:30.087 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findById: SELECT * FROM registered_customers WHERE registered_customer_id = 3
+20:37:36.433 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - updateCustomer: UPDATE registered_customers SET checking_account_balance=45, savings_account_balance=50 WHERE registered_customer_id=3
+20:38:43.468 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findAll: SELECT * FROM registered_customers
+20:38:47.071 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findById: SELECT * FROM registered_customers WHERE registered_customer_id = 1
+20:38:50.940 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - deleteCustomer: DELETE FROM registered_customers where registered_customer_id = 1
+20:38:56.688 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findAll: SELECT * FROM registered_customers
+20:48:27.248 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findById: SELECT * FROM registered_customers WHERE registered_customer_id = 7
+20:48:32.800 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findAll: SELECT * FROM registered_customers
+21:25:58.061 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - addCustomer: INSERT INTO pending_customers (username, pass_word, customer_name, address, phone_number, checking_account_balance, savings_account_balance) VALUES ('test01', 'pass', 'test01', '1 main st', 1111111, 50, 50)
+21:26:47.831 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findAll: SELECT * FROM pending_customers
+21:26:56.232 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findById: SELECT * FROM pending_customers WHERE pending_customer_id = 8
+21:27:03.213 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - deleteCustomer: DELETE FROM pending_customers where pending_customer_id = 8
+21:27:57.805 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - addCustomer: INSERT INTO pending_customers (username, pass_word, customer_name, address, phone_number, checking_account_balance, savings_account_balance) VALUES ('test02', 'pass', 'test02', '1 main ave', 1112222, 40, 40)
+21:29:58.729 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - addCustomer: INSERT INTO pending_customers (username, pass_word, customer_name, address, phone_number, checking_account_balance, savings_account_balance) VALUES ('test03', 'pass', 'test03', '1 main st', 1112233, 50, 50)
+21:30:31.008 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findAll: SELECT * FROM registered_customers
+21:31:17.842 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findAll: SELECT * FROM pending_customers
+21:31:33.311 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findById: SELECT * FROM pending_customers WHERE pending_customer_id = 10
+21:31:38.101 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - deleteCustomer: DELETE FROM pending_customers where pending_customer_id = 10
+21:32:24.476 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - addCustomer: INSERT INTO pending_customers (username, pass_word, customer_name, address, phone_number, checking_account_balance, savings_account_balance) VALUES ('test04', 'pass', 'test04', '1 main st', 1111111, 50, 50)
+21:32:52.653 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findAll: SELECT * FROM pending_customers
+21:33:10.246 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findById: SELECT * FROM pending_customers WHERE pending_customer_id = 11
+21:33:15.600 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - deleteCustomer: DELETE FROM pending_customers where pending_customer_id = 11
+21:33:15.992 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - addCustomer: INSERT INTO registered_customers (username, pass_word, customer_name, address, phone_number, checking_account_balance, savings_account_balance) VALUES ('test04', 'pass', 'test04', '1 main st', 1111111, 50, 50)
+21:33:47.095 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findAll: SELECT * FROM registered_customers
+21:34:11.398 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - updateCustomer: UPDATE registered_customers SET checking_account_balance=45, savings_account_balance=50 WHERE registered_customer_id=4
+21:34:58.289 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - updateCustomer: UPDATE registered_customers SET checking_account_balance=45, savings_account_balance=55 WHERE registered_customer_id=4
+21:35:20.155 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - updateCustomer: UPDATE registered_customers SET checking_account_balance=50, savings_account_balance=50 WHERE registered_customer_id=4
+21:36:02.973 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findAll: SELECT * FROM registered_customers
+21:36:15.710 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findAll: SELECT * FROM registered_customers
+21:36:33.115 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findById: SELECT * FROM registered_customers WHERE registered_customer_id = 4
+21:36:53.379 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - deleteCustomer: DELETE FROM registered_customers where registered_customer_id = 4
+21:38:07.701 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - addCustomer: INSERT INTO pending_customers (username, pass_word, customer_name, address, phone_number, checking_account_balance, savings_account_balance) VALUES ('test05', 'pass', 'testo5', '2 main ave', 1234321, 500, 500)
+21:38:31.416 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findAll: SELECT * FROM pending_customers
+21:38:34.023 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findById: SELECT * FROM pending_customers WHERE pending_customer_id = 12
+21:38:36.364 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - deleteCustomer: DELETE FROM pending_customers where pending_customer_id = 12
+21:38:36.769 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - addCustomer: INSERT INTO registered_customers (username, pass_word, customer_name, address, phone_number, checking_account_balance, savings_account_balance) VALUES ('test05', 'pass', 'testo5', '2 main ave', 1234321, 500, 500)
+21:38:40.066 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findAll: SELECT * FROM registered_customers
+21:38:48.385 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - findById: SELECT * FROM registered_customers WHERE registered_customer_id = 5
+21:39:54.807 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - updateCustomer: UPDATE registered_customers SET checking_account_balance=150, savings_account_balance=500 WHERE registered_customer_id=5
+21:40:26.705 [] [main] INFO  c.r.daos.RegisteredCustomerDAOImpl - updateCustomer: UPDATE registered_customers SET checking_account_balance=145, savings_account_balance=500 WHERE registered_customer_id=5
